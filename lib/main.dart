@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+//git_test
+
 void main() => runApp(BMICalculator());
 
 class BMICalculator extends StatelessWidget {
@@ -28,6 +30,7 @@ class _InputPageState extends State<InputPage> {
       ),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
+        onPressed: () => {} ,
       ),
     );
   }
